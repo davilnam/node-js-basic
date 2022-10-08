@@ -3,6 +3,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -26,4 +30,22 @@ body {
 .topnav a.active {
     background-color: #04aa6d;
     color: white;
+}
+
+.create-user-container {
+    padding: 15px;
+    text-align: center;
+}
+
+.create-user-container label {
+    display: block;
+}
+
+.btn-submit {
+    margin-top: 15px;
+
+}
+
+input {
+    width: 280px;
 }
