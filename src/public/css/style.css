@@ -32,18 +32,24 @@ a {
     color: white;
 }
 
-.create-user-container {
+.create-user-container,
+.update-user-container {
     padding: 15px;
     text-align: center;
 }
 
-.create-user-container label {
+.create-user-container label,
+.update-user-container label {
     display: block;
 }
 
-.btn-submit {
+.btn-submit,
+.btn-save {
     margin-top: 15px;
+}
 
+form {
+    display: inline-block;
 }
 
 input {
